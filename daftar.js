@@ -54,10 +54,10 @@ export default function App() {
           </TouchableOpacity>
           <Text style={styles.loginButton}>
             Sudah punya akun?
-            <TouchableOpacity>
-              <Text style={styles.backLoginButton}>Login</Text>{" "}
-            </TouchableOpacity>{" "}
           </Text>
+          <TouchableOpacity>
+              <Text style={styles.backLoginButton}>Login</Text>
+           </TouchableOpacity>
         </View>
       </ImageBackground>
     </View>
@@ -113,10 +113,10 @@ const styles = StyleSheet.create({
     paddingTop: 5
   },
   loginButton: {
-    alignItems: "center",
-    justifyContent: "center"
+    textItems: "center",
   },
   backLoginButton: {
-    fontWeight: "bold"
+    fontWeight: "bold",
+    textAlign: "center",
   }
 });
